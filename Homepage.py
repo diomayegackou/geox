@@ -31,7 +31,7 @@ current_year = datetime.now().year
 month_number_to_name = {
     10: "October 2025",
     11: "November 2025",
-    09: "Septembre 2025",
+    9: "Septembre 2025",
 }
 
 # Set default month based on current month, fallback to November if current month not in mapping
