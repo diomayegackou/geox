@@ -19,6 +19,8 @@ st.set_page_config(page_title="GEOX Productivity", page_icon="", layout="wide")
 month_mapping = {
     "November 2025": "2025-11.xlsx",
     "October 2025": "2025-10.xlsx",
+    "Septembre 2025": "2025-09.xlsx",
+    
 }
 
 # Default to current month - DYNAMIC APPROACH
@@ -28,7 +30,8 @@ current_year = datetime.now().year
 # Create a mapping of month numbers to month names
 month_number_to_name = {
     10: "October 2025",
-    11: "November 2025"
+    11: "November 2025",
+    09: "Septembre 2025",
 }
 
 # Set default month based on current month, fallback to November if current month not in mapping
